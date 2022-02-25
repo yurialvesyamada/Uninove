@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal normal 1em Arial, Helvetica, sans-serif;
+}
+
+ul {
+    padding-left: 0;
+}
+
+a,
+li,
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* Padding Config */
+
+.p-auto {
+    padding: auto;
+}
+
+.p-1 {
+    padding: 0.2em;
+}
+
+.p-2 {
+    padding: 0.4em;
+}
+
+.p-3 {
+    padding: 0.6em;
+}
+
+.p-4 {
+    padding: 0.8em;
+}
+
+.p-5 {
+    padding: 2em;
+}
+
+.py-auto {
+    padding: auto;
+}
+
+.py-1 {
+    padding: 0.2em 0em;
+}
+
+.py-2 {
+    padding: 0.4em 0em;
+}
+
+.py-3 {
+    padding: 0.6em 0em;
+}
+
+.py-4 {
+    padding: 0.8em 0em;
+}
+
+.py-5 {
+    padding: 2em 0em;
+}
+
+.px-auto {
+    padding: auto;
+}
+
+.px-1 {
+    padding: 0em 0.2em;
+}
+
+.px-2 {
+    padding: 0em 0.4em;
+}
+
+.px-3 {
+    padding: 0em 0.6em;
+}
+
+.px-4 {
+    padding: 0em 0.8em;
+}
+
+.px-5 {
+    padding: 0em 2em;
+}
+
+/* Margin Config */
+
+.m-auto {
+    padding: auto;
+}
+
+.m-1 {
+    margin: 0.2em;
+}
+
+.m-2 {
+    margin: 0.4em;
+}
+
+.m-3 {
+    margin: 0.6em;
+}
+
+.m-4 {
+    margin: 0.8em;
+}
+
+.m-5 {
+    margin: 2em;
+}
+
+.my-auto {
+    margin: auto;
+}
+
+.my-1 {
+    margin: 0.2em 0em;
+}
+
+.my-2 {
+    margin: 0.4em 0em;
+}
+
+.my-3 {
+    margin: 0.6em 0em;
+}
+
+.my-4 {
+    margin: 0.8em 0em;
+}
+
+.my-5 {
+    margin: 2em 0em;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.mx-1 {
+    margin: 0em 0.2em;
+}
+
+.mx-2 {
+    margin: 0em 0.4em;
+}
+
+.mx-3 {
+    margin: 0em 0.6em;
+}
+
+.mx-4 {
+    margin: 0em 0.8em;
+}
+
+.mx-5 {
+    margin: 0em 2em;
+}
