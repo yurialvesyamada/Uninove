@@ -1,0 +1,38 @@
+/* ABSOLUTE */
+/* position:absolute; - O posicionamento ocorre em um posicionamento que leva em consideração o topo e a esquerda;  */
+#absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: #f00;
+    background-color: #ff0;
+    width: 300px;
+    height: 250px;
+    border: 4px solid #0f0;
+}
+
+/* position:relative; - O posicionamento ocorre de acordo com a posição original do elemento, mas se este tiver um elemento pai, sua posição será considerada a partir deste elemento pai.  */
+
+#div_pai {
+    position: relative;
+    background: #ccc;
+    width: 500px;
+    height: 300px;
+    border: 2px solid #f00;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+#minha_div {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    color: #f00;
+    background-color: #ff0;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #0f0;
+}
+
+/* postion:static;-  Este é o valor padrão. Os elementos aparecem de acordo com a ordem que estiverem declarados no documento.  */
+/* position: fixed; - O posicionamento ocorre  em relação à janela do navegador. */

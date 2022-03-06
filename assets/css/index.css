@@ -9,17 +9,88 @@
     text-align: center;
     padding: 16px;
     font-size: 18px;
+}
+
+.navbar li>a {
     color: rgba(255, 255, 255, 0.9);
 }
 
-.navbar a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 6px;
-    border-left: 1px solid rgb(245, 245, 245);
-    box-shadow: rgba(0, 0, 0, 0.411) 0px 0px 0px 1px;
+
+/* Combinando estilos */
+header#cabecalho h1 {
+    text-align: center;
 }
 
-header>h1 {
+main>div {
+    background-color: #f3f3f3ec;
+    border: 1.5px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+}
+
+p.destaque,
+p.p-element2 {
+    color: rgba(100, 148, 237, 0.795);
+}
+
+p.p-element1 {
+    background-color: #4745452f;
+}
+
+ul#conteudo {
     text-align: center;
-    font-weight: 400;
+    background-color: rgba(220, 220, 220, 0.699);
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 2em;
+}
+
+ul#conteudo li {
+    padding: 0.4em;
+    display: inline-block;
+    color: rgba(34, 34, 34, 0.733);
+}
+
+section>h2 {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+div.learning {
+    text-align: center;
+}
+
+div.learning li {
+    display: inline;
+    padding: 1em;
+}
+
+.learning li {
+    font-size: 1.8em;
+}
+
+a:link {
+    color: rgba(13, 15, 19, 0.938);
+
+}
+
+a:visited {
+    color: rgba(13, 15, 19, 0.938);
+}
+
+/* a:hover {
+    background-color: rgba(134, 156, 180, 0.24);
+    border: 1px solid rgba(134, 156, 180, 0.24);
+    border-radius: 2px;
+} */
+
+div.box {
+    background-color: #4749b6be;
+    color: rgba(255, 255, 255, 0.9);
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.411);
+    text-align: center;
+    float: right;
 }

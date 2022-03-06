@@ -1,0 +1,16 @@
+COMBINANDO SELETORES
+
+Podemos também combinar os seletores que aprendemos acima, para conseguir diferentes elementos e partes mais específicas de nossos sites. Alguns exemplos:
+- p.destaque seleciona apenas os parágrafos que possuem a classe "destaque".
+- div#cabecalho h1 seleciona tags h1 que estejam dentro da div com a id "cabecalho".
+- #conteudo ul li a seleciona links (tag a) dentro de itens de lista dentro de tags ul que estejam dentro de um elemento com a id "conteudo".
+- #conteudo p.destaque strong seleciona elementos strong dentro de parágrafos com a classe "destaque" que estejam dentro de um elemento com a id "conteudo".
+- .mensagem.destaque seleciona apenas elementos que tenham a classe "mensagem" e a classe "destaque".
+-  Separando itens por vírgulas, como p.destaque, h1, a.saiba-mais seleciona todos os respectivos elementos para as regras. Muito útil para diminuir a repetição de regras no arquivo CSS.
+
+
+a:link: Formata o estilo do link padrão;
+a:visited: Formata o estilo padrão do link;
+a:hover:  Formata o estilo do link quando o usuário passa o mouse sobre ele;
+a:active:  Formata o estilo do link ativo (clicado). 
+

@@ -29,15 +29,55 @@
     <nav class="navbar">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="roadmap.html">Roadmap</a></li>
-            <li><a href="contato.html">Contato</a></li>
-            <li><a href="sobre.html">Sobre Nós</a></li>
         </ul>
     </nav>
-
-    <header>
-        <h1 class="py-3">Home Page</h1>
+    <header id="cabecalho">
+        <h1 class="py-3">COMBINANDO SELETORES</h1>
     </header>
+    <section>
+        <p class="p-4 destaque">p.destaque seleciona apenas os parágrafos que possuem a classe "destaque".</p>
+        <p class="p-4">header#cabecalho h1 seleciona tags h1 que estejam dentro da header com a id "cabecalho"</p>
+        <p class="p-4"> #conteudo ul li a seleciona links (tag a) dentro de itens de lista dentro de tags
+            ul que estejam dentro de um elemento com a id "conteudo".</p>
+        <ul id="conteudo">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+        </ul>
+        <p class="p-4 p_element3">#conteudo p.destaque strong seleciona elementos strong dentro de parágrafos com a
+            classe "destaque" que
+            estejam dentro de um elemento com a id "conteudo".</p>
+        <p class="p-4 p_element4">.mensagem.destaque seleciona apenas elementos que tenham a classe "mensagem" e a
+            classe "destaque".</p>
+        <p class="p-4 p_element5">Separando itens por vírgulas, como p.destaque, h1, a.saiba-mais seleciona todos os
+            respectivos elementos
+            para as regras. Muito útil para diminuir a repetição de regras no arquivo CSS.</p>
+
+    </section>
+    <section>
+        <h2 class="py-4">Imagens</h2>
+        <figure>
+            <img src="assets/img/html5.png" alt="html5" title="HTML5">
+            <img src="assets/img/css3.png" alt="css3" title="CSS3">
+            <img src="assets/img/javascript.png" alt="javascript" title="javascript">
+            <figcaption>Tecnologias Front-End</figcaption>
+        </figure>
+        <div class="learning py-4">
+            <h3>Materias de Apoio</h3>
+            <ul>
+                <li>
+                    <a href="https://www.w3schools.com/html/default.asp" target="_blank" rel="noopener noreferrer">Aprenda HTML5</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/css/default.asp" target="_blank" rel="noopener noreferrer">Aprenda CSS3</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/js/default.asp" target="_blank" rel="noopener noreferrer">Aprenda JavaScript</a>
+                </li>
+            </ul>
+        </div>
+    </section>
 </body>
 
 </html>
