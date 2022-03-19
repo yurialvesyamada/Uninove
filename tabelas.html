@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <title>Tabelas</title>
+    <style>
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        table {
+            width: 75%;
+            height: 150px;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid rgb(216, 210, 207);
+            ;
+            padding: 0.5em;
+            text-align: center;
+            margin: auto;
+            border-radius: 4px;
+        }
+
+        .header {
+            background-color: rgba(216, 210, 207, 0.74);
+            ;
+        }
+
+        tr>td {
+            background-color: rgb(216, 210, 207);
+        }
+    </style>
+</head>
+<!-- 
+        Tabelas
+        tr = table row
+        td = table data (registro)
+        th = table header
+        caption = Utilizada para criar legendas dentro das tabelas
+
+     -->
+
+<body>
+    <header>
+        <h1>Tabelas</h1>
+    </header>
+
+    <table>
+        <!-- <caption>Linhas com tr</caption> -->
+        <tr>
+            <th colspan="2">Linhas são feitas com tr</th>
+        </tr>
+        <tr class="header">
+            <th>Cabecalho com th</th>
+            <th>Cabecalho com th</th>
+        </tr>
+        <tr>
+            <td>Células com td</td>
+            <td>Células com td</td>
+        </tr>
+        <tr>
+            <td>Células com td</td>
+            <td>Células com td</td>
+        </tr>
+    </table>
+
+    <h2>Formatando grupo de colunas</h2>
+
+    <table>
+        <colgroup>
+            <col span="3" style="color: darkgrey">
+            <col style="background-color: red;">
+        </colgroup>
+        <tr>
+            <th>Front-End</th>
+            <th>Back-End</th>
+            <th>Ferramentas</th>
+        </tr>
+        <tr>
+            <td>HTML5</td>
+            <td>C#</td>
+            <td>Git</td>
+        </tr>
+        <tr>
+            <td>CSS3</td>
+            <td>Node.Js</td>
+            <td>Docker</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Java</td>
+            <td>Rest Api</td>
+        </tr>
+        <tr>
+            <td>Bootstrap</td>
+            <td>PHP</td>
+            <td>SCRUM</td>
+        </tr>
+    </table>
+
+    <h2>Tabelas semanticas</h2>
+    <table>
+        <caption>Tables</caption>
+        <thead>
+            <tr>
+                <td colspan="3">Conteúdo thead</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Conteúdo tbody</td>
+                <td>Conteúdo tbody</td>
+                <td>Conteúdo tbody</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Conteúdo tfoot</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

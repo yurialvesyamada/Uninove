@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mídias em HTML5</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        video {
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Videos</h1>
+
+    <h2>Há duas formas possíveis de inserir um vídeo em sua página com o elemento video.</h2>
+
+    <h2>1 forma com a tag video com atributo src</h2>
+    <video src="assets/videos/Queen – Bohemian Rhapsody (Official Video Remastered).mp4" controls></video>
+
+    <h2>Segunda forma com o elemento source com o atributo src dentro da tag video</h2>
+    <video controls>
+        <source src="assets/videos/Queen – Bohemian Rhapsody (Official Video Remastered).mp4" type="video/mp4">
+    </video>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Utilizando Formulários</h1>
+    <h2>Entrada de dados</h2>
+    <form action="mailto:yurialvesyamada@hotmail.com" method="post" name="register" enctype="text/plain"
+        autocomplete="on">
+
+        <fieldset>
+            <legend>Dados</legend>
+            Login <input type="text" autocomplete="name" minlength="5" maxlength="20" required>
+            <br> <br>
+            Senha <input type="password" minlength="8" maxlength="14">
+            <br> <br>
+            Email <input type="email" name="email" id="" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                title="Exemplo: john@outlook.com">
+            <br> <br>
+            Telefone <input type="tel" maxlength="15" name="telefone" required
+                pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" title="Exemplo: 11948756799" />
+            <br> <br>
+            Data de Nascimento
+            <input type="date" name="data" id="" min="1922-01-01" max="2022-03-15">
+        </fieldset>
+        <br> <br>
+        <fieldset>
+            <legend>Experiência</legend>
+            Escolha uma tecnologia para prosseguir
+            <br> <br>
+            <input type="radio" name="tech" value="HTML5">HTML5
+            <input type="radio" name="tech" value="CSS3">CSS3
+            <input type="radio" name="tech" value="JavaScript">JavaScript
+            <br> <br>
+            Cursos Adicionais
+            <br> <br>
+            <input type="checkbox" name="Git" checked>Git
+            <input type="checkbox" name="Docker">Docker
+            <input type="checkbox" name="Linux" checked>Linux
+            <br><br>
+            Hora
+            <input type="datetime-local" name="data_local" id="">
+            <br> <br>
+            Range de Experiência com Programação
+            <br> <br>
+            <input type="range" name="experience" min="1" max="100">
+            <br><br>
+            Anexar Certificados
+            <br> <br>
+            <input type="file">
+            <br> <br>
+            Importar multíplos arquivos
+            <input type="file" name="teste" multiple>
+            <br> <br>
+            Importar Imagens
+            <br> <br>
+            <input type="image" src="assets/img/html5.png" width="60" height="60" alt="Img">
+            <br> <br>
+            Cursos Disponíveis
+            <br> <br>
+            <label for="tech">
+                <select name="course" id="tech">
+                    <optgroup label="Tecnologias">
+                        <option selected disabled value="1">Selecione um curso</option>
+                        <option value="HTML5">HTML5</option>
+                        <option value="CSS3">CSS3</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="JQuery">JQuery</option>
+                        <option value="Bootstrap">Bootstrap</option>
+                    </optgroup>
+                    <optgroup label="Back-End">
+                        <option value="PHP">PHP</option>
+                        <option value="SQL">SQL</option>
+                        <option value="Java">Java</option>
+                        <option value="Node">Node</option>
+                        <option value="C#">PHP</option>
+                    </optgroup>
+                </select>
+            </label>
+        </fieldset>
+        <br> <br> -->
+        <!-- Selecione uma cor
+        <br> <br>
+        <input type="color">
+        <br> <br>
+        <textarea name="" id="" cols="15" rows="2" disabled>Bora estudar!</textarea>
+        <br> <br>
+        Limpar dados de Entrada
+        <br> <br>
+        <input type="reset" name="reset_form" id="">
+        <input type="submit" name="send_form" id="">
+        <br><br><br>
+
+        <!-- Informe a marca de seu carro:
+        <input list="carros">
+        <datalist id="carros">
+            <option value="Ford">
+            <option value="BMW">
+            <option value="Fiat">
+            <option value="GM">
+            <option value="Honda">
+            <option value="Audi">
+        </datalist> -->
+
+
+    </form>
+</body>
+
+</html>

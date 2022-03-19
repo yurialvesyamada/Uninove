@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudios</title>
+    <style>
+        body {
+            text-align: center;
+            font: 0.8em Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Há duas formas possíveis de inserir um áudio em sua página com o elemento audio.</h1>
+
+    <h2>A primeira forma é inserindo um áudio utilizando o atributo src (origem) diretamente no elemento audio conforme
+        o exemplo abaixo.</h2>
+    <audio src="assets/audios/Queen – Bohemian Rhapsody (Official Video Remastered) (128 kbps).mp3" controls></audio>
+
+    <h2>A segunda forma é inserir um áudio utilizando o elemento source (origem) entre as tags de abertura e fechamento
+        do elemento audio. Utilizamos esta forma sempre que quisermos subir mais de umz extensão do mesmo áudio, para
+        garantir que ele será corretamente carregado em mais de um navegador ou mesmo para que o navegador tenha a opção
+        de escolher qual áudio ele reconhece. Neste caso o navegador "rodará" o primeiro formato de áudio que for
+        reconhecido, ok? Abaixo temos um exemplo deste tipo de código: </h2>
+    <audio controls>
+        <source src="assets/audios/Queen – Bohemian Rhapsody (Official Video Remastered) (128 kbps).mp3"
+            type="audio/mpeg">
+    </audio>
+
+</body>
+
+</html>
